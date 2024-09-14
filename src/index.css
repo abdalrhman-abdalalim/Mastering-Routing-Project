@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: rgb(35 39 47);
+    color: white;
+}
+
+nav .active {
+    color:#149eca;
+    background-color: rgba(20, 158, 202, 0.1);
+    border-radius: 10px;
+}
+aside li:has(.active){
+    background-color: rgba(20, 158, 202, 0.1); /* Example style */
+    color: #149eca;
+    border-left: 4px solid #149eca;
+}
